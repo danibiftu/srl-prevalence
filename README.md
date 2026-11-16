@@ -1,6 +1,6 @@
 # Cut-off-free prevalence mapping with a Bayesian location–scale spatial rank likelihood
 
-Code for: Bekalo, D.B.; Esenogho, E. Cut-Off-Free Prevalence Mapping with a Bayesian Location–Scale Spatial Rank Likelihood. *Stats* (under review).
+Code for: Bekalo, D.B.; Esenogho, E. Cut-Off-Free Prevalence Mapping with a Bayesian Location–Scale Spatial Rank Likelihood.
 
 All code is in `srl_prevalence.py`: the method (sampler, cut-off-free prevalence with the clustered Bayesian bootstrap, comparator models, diagnostics), the simulation study (Section 5) and the application to women's body mass index in Ethiopia (Section 6).
 
