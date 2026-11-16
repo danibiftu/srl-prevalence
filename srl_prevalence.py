@@ -1381,7 +1381,7 @@ def simulation_outputs(summary_csv="simulation_summary.csv", fig_dir="figures", 
                     f.write(f"{lead} & {MOD_LAB[mname]} & {f3(t.A_rmse)} & {f2(t.A_cov)} & {f3(t.D_rmse)} & "
                             f"{f2(t.D_cov)} & {f3(t.U_rmse)} & {f2(t.U_cov)} & {f2(t.rank_corr)} \\\\\n")
                 f.write("\\addlinespace\n")
-    rng_ = lambda p, fmt: "--" if pd.isna(p[0]) else f"{fmt(p[0])}--{fmt(p[1])}"
+    rng_ = lambda p, fmt: "--" if pd.isna(p[0]) else (fmt(p[0]) if fmt(p[0]) == fmt(p[1]) else f"{fmt(p[0])}--{fmt(p[1])}")
     with open(os.path.join(tab_dir, "sim_summary_rows.tex"), "w") as f:
         for mname in MODELS:
             for gauss in [True, False]:
@@ -1797,10 +1797,12 @@ def maps_application(root=".", variant="hetero"):
         lo = min(g[f"{k}_A_mean"].min(), g[f"{k}_B_mean"].min())
         hi = max(g[f"{k}_A_mean"].max(), g[f"{k}_B_mean"].max())
         panels = [(f"{k}_A_mean", "(a) Definition A (%)", lo, hi), (f"{k}_B_mean", "(b) Definition B (%)", lo, hi),
-                  (f"{k}_D_mean", "(c) Difference B − A (percentage points)", None, None)]
+                  (f"{k}_D_mean", "(c) Difference B − A (percentage points)",
+                   *({"thin": (-16.0, 0.0), "over": (0.0, max(1.0, g[f"{k}_D_mean"].max()))}[k]))]
         for a, (col, title, vmin, vmax) in zip(ax, panels):
             g.plot(column=col, cmap="viridis", vmin=vmin, vmax=vmax, ax=a, edgecolor="white", linewidth=0.2,
-                   legend=True, legend_kwds={"shrink": 0.8, "orientation": "horizontal", "pad": 0.02})
+                   legend=True, legend_kwds={"shrink": 0.8, "orientation": "horizontal", "pad": 0.02,
+                   **({"ticks": {"thin": [-16, -12, -8, -4, 0], "over": [0, 0.25, 0.5, 0.75, 1.0]}[k]} if col.endswith("_D_mean") else {})})
             g[~g["has_data"]].plot(ax=a, facecolor="none", edgecolor="black", hatch="///", linewidth=0.4)
             regions.boundary.plot(ax=a, color="black", linewidth=0.5)
             a.set_title(title, fontsize=10)
