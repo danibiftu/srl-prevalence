@@ -1,0 +1,108 @@
+zone,adm2_pcode,adm2_name,adm1_name
+1,ET0101,North Western,Tigray
+2,ET0102,Central,Tigray
+3,ET0103,Eastern,Tigray
+4,ET0104,Southern,Tigray
+5,ET0106,South Eastern,Tigray
+6,ET0107,Mekelle,Tigray
+7,ET0201,Awsi /Zone 1,Afar
+8,ET0202,Kilbati /Zone 2,Afar
+9,ET0203,Gabi /Zone 3,Afar
+10,ET0204,Fanti /Zone 4,Afar
+11,ET0205,Hari /Zone 5,Afar
+12,ET0206,Mahi /Zone 6,Afar
+13,ET0301,North Gondar,Amhara
+14,ET0302,South Gondar,Amhara
+15,ET0303,North Wello,Amhara
+16,ET0304,South Wello,Amhara
+17,ET0305,North Shewa (AM),Amhara
+18,ET0306,East Gojam,Amhara
+19,ET0307,West Gojam,Amhara
+20,ET0308,Wag Hamra,Amhara
+21,ET0309,Awi,Amhara
+22,ET0310,Oromo Nationality Administration,Amhara
+23,ET0311,Central Gondar,Amhara
+24,ET0312,West Gondar,Amhara
+25,ET0313,North Gojam,Amhara
+26,ET0314,Bahir Dar town Admin,Amhara
+27,ET0401,West Wellega,Oromia
+28,ET0402,East Wellega,Oromia
+29,ET0403,Ilu Aba Bora,Oromia
+30,ET0404,Jimma,Oromia
+31,ET0405,West Shewa,Oromia
+32,ET0406,North Shewa (OR),Oromia
+33,ET0407,East Shewa,Oromia
+34,ET0408,Arsi,Oromia
+35,ET0409,West Hararge,Oromia
+36,ET0410,East Hararge,Oromia
+37,ET0411,Bale,Oromia
+38,ET0412,Borena,Oromia
+39,ET0413,South West Shewa,Oromia
+40,ET0414,Guji,Oromia
+41,ET0415,West Guji,Oromia
+42,ET0416,Buno Bedele,Oromia
+43,ET0417,West Arsi,Oromia
+44,ET0418,Kelem Wellega,Oromia
+45,ET0419,Horo Gudru Wellega,Oromia
+46,ET0420,Shager City,Oromia
+47,ET0421,East Bale,Oromia
+48,ET0422,East Borena,Oromia
+49,ET0501,Siti,Somali
+50,ET0502,Fafan,Somali
+51,ET0503,Jarar,Somali
+52,ET0504,Erer,Somali
+53,ET0505,Korahe,Somali
+54,ET0506,Shabelle,Somali
+55,ET0507,Doolo,Somali
+56,ET0508,Afder,Somali
+57,ET0509,Liban,Somali
+58,ET0510,Nogob,Somali
+59,ET0511,Daawa,Somali
+60,ET0602,Metekel,Benishangul-Gumuz
+61,ET0603,Assosa,Benishangul-Gumuz
+62,ET0604,Kamashi,Benishangul-Gumuz
+63,ET0605,Mao-komo Special,Benishangul-Gumuz
+64,ET0700,Kebena Special,Central Ethiopia
+65,ET0701,Guraghe,Central Ethiopia
+66,ET0702,Hadiya,Central Ethiopia
+67,ET0703,Kembata,Central Ethiopia
+68,ET0704,East Guraghe,Central Ethiopia
+69,ET0714,Halaba,Central Ethiopia
+70,ET0720,Siltie,Central Ethiopia
+71,ET0724,Yem,Central Ethiopia
+72,ET0725,Mareko Special,Central Ethiopia
+73,ET0726,Tembaro Special,Central Ethiopia
+74,ET0801,Wolayita,South Ethiopia
+75,ET0802,Gamo,South Ethiopia
+76,ET0803,Gofa,South Ethiopia
+77,ET0804,Basketo,South Ethiopia
+78,ET0805,Ari,South Ethiopia
+79,ET0806,Alle Special,South Ethiopia
+80,ET0807,Derashe,South Ethiopia
+81,ET0808,Kore,South Ethiopia
+82,ET0809,Konso,South Ethiopia
+83,ET0810,Burji,South Ethiopia
+84,ET0811,Gedeo,South Ethiopia
+85,ET0812,South Omo,South Ethiopia
+86,ET1101,Sheka,South West Ethiopia
+87,ET1102,Kefa,South West Ethiopia
+88,ET1103,Bench Sheko,South West Ethiopia
+89,ET1104,Dawuro,South West Ethiopia
+90,ET1105,West Omo,South West Ethiopia
+91,ET1106,Konta,South West Ethiopia
+92,ET1201,Nuwer,Gambela
+93,ET1202,Agnewak,Gambela
+94,ET1203,Majang,Gambela
+95,ET1204,Itang Special,Gambela
+96,ET1301,Harari,Harari
+97,ET1401,Region 14,Addis Ababa
+98,ET1501,Dire Dawa urban,Dire Dawa
+99,ET1502,Dire Dawa rural,Dire Dawa
+100,ET1601,Hawassa town Admin,Sidama
+101,ET1602,Northern,Sidama
+102,ET1603,Central,Sidama
+103,ET1604,Southern,Sidama
+104,ET1605,Eastern,Sidama
+105,ET9901,Area 1,Contested
+106,ET9902,Area 2,Contested
+107,ET9903,Area 3,Contested
